@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Information Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f90bc21c;
+}
+
+header {
+    background-color: #7144c4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 1 1 calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+
+/* Button Styles */
+.anime-link-btn {
+    display: flat;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    background-color: #7144c4;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.anime-link-btn:hover {
+    background-color: #c444be;
+}
+
+.anime-link-btn:focus {
+    outline: rgb(238, 255, 0);
+}
+
+footer {
+    background-color: #7144c4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Know Your Anime</h1>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Anime 1 -->
+            <section class="profile">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Goku-True-Ultra-Instinct.jpg?q=50&fit=crop&w=767&h=431&dpr=1.5" alt="Dragon Ball Super" class="profile-img">
+                <h2>Dragon Ball Super</h2>
+                <p class="anime-id"><b>Anime ID:</b> 123456</p>
+                <p class="ratings"><b>Ratings:</b> 9.0</p>
+                <p class="episodes"><b>No. of Episodes:</b> 32</p>
+                <p class="about"><b>About:</b> Set during the time frame of Toriyama's original Dragon Ball manga, it follows the adventures of Son Goku and friends during the ten-year timeskip after the defeat of Majin Buu.</p>
+                <p class="status"><b>Status:</b> Finished</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+
+            <!-- Anime 2 -->
+            <section class="profile">
+                <img src="https://sm.ign.com/ign_in/screenshot/default/one-piece_2sa6.jpg" alt="One Piece" class="profile-img">
+                <h2>One Piece</h2>
+                <p class="anime-id"><b>Anime ID:</b> 234567</p>
+                <p class="ratings"><b>Ratings:</b> 8.9</p>
+                <p class="episodes"><b>No. of Episodes:</b> 1070+</p>
+                <p class="about"><b>About:</b> Monkey D. Luffy and his pirate crew in their quest to find the legendary treasure known as "One Piece" and become the Pirate King.</p>
+                <p class="status"><b>Status:</b> Ongoing</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+
+            <!-- Anime 3 -->
+            <section class="profile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1xcexvEb6xy3_X2F3zsVCEBSVQC6746J4g&s" alt="Naruto Shippuden" class="profile-img">
+                <h2>Naruto Shippuden</h2>
+                <p class="anime-id"><b>Anime ID:</b> 345678</p>
+                <p class="ratings"><b>Ratings:</b> 8.7</p>
+                <p class="episodes"><b>No. of Episodes:</b> 500</p>
+                <p class="about"><b>About:</b> Naruto Uzumaki, a young ninja with a sealed demon fox spirit within him, embarks on an adventure to become the strongest ninja, the Hokage.</p>
+                <p class="status"><b>Status:</b> Finished</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+
+            <!-- Anime 4 -->
+            <section class="profile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_rAySQMFwWBOyElQ7QJuJOAY-8Sq3IOaHHA&s" alt="Attack on Titan" class="profile-img">
+                <h2>Attack on Titan</h2>
+                <p class="anime-id"><b>Anime ID:</b> 456789</p>
+                <p class="ratings"><b>Ratings:</b> 9.2</p>
+                <p class="episodes"><b>No. of Episodes:</b> 87</p>
+                <p class="about"><b>About:</b> Humanity's fight for survival against giant humanoid creatures known as Titans, and the secrets behind their existence.</p>
+                <p class="status"><b>Status:</b> Ongoing</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+
+            <!-- Anime 5 -->
+            <section class="profile">
+                <img src="https://static.bandainamcoent.eu/high/my-hero-academia/my-hero-ultra-rumble/00-page-setup/MHUR-new-header-mobile.jpg" alt="My Hero Academia" class="profile-img">
+                <h2>My Hero Academia</h2>
+                <p class="anime-id"><b>Anime ID:</b> 567890</p>
+                <p class="ratings"><b>Ratings:</b> 8.8</p>
+                <p class="episodes"><b>No. of Episodes:</b> 88</p>
+                <p class="about"><b>About:</b> In a world where nearly everyone has superpowers, or "quirks," a young boy without powers dreams of becoming the greatest hero.</p>
+                <p class="status"><b>Status:</b> Ongoing</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+
+            <!-- Anime 6 -->
+            <section class="profile">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Logo_Death_Note.jpg/1200px-Logo_Death_Note.jpg" alt="Death Note" class="profile-img">
+                <h2>Death Note</h2>
+                <p class="anime-id"><b>Anime ID:</b> 678901</p>
+                <p class="ratings"><b>Ratings:</b> 9.1</p>
+                <p class="episodes"><b>No. of Episodes:</b> 37</p>
+                <p class="about"><b>About:</b> A high school student discovers a supernatural notebook that allows him to kill anyone whose name he writes in it.</p>
+                <p class="status"><b>Status:</b> Finished</p>
+                <a href="https://123animehub.cc/" target="_blank" class="anime-link-btn">Go to Anime Site</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime Information System</p>
+    </footer>
+</body>
+</html>
